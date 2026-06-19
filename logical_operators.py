@@ -1,0 +1,6 @@
+a=int(input("enter the value of A:"))
+b=int(input("enter the value of B:"))
+print(a if a<b else b)
+print("AND:", a>10 and b<100)
+print("OR:", a>10 or b<100)
+print("NOT:", not (a==b))
